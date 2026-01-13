@@ -1,0 +1,102 @@
+/* Geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+
+/* Estrutura */
+.cv {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* COLUNA ESQUERDA */
+.esquerda {
+    width: 30%;
+    background-color: #0b3c4d;
+    color: white;
+    padding: 10px;
+}
+
+.esquerda img {
+   width: 370px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+}
+
+.esquerda h4 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+.esquerda ul {
+    padding-left: 18px;
+}
+
+/* COLUNA DIREITA */
+.direita {
+    width: 70%;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.direita h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.direita h2 {
+    margin-top: 5px;
+    color: #0b3c4d;
+    letter-spacing: 2px;
+}
+
+/* Secções */
+.secao h3 {
+    color: #0b3c4d;
+    border-bottom: 2px solid #0b3c4d;
+    padding-bottom: 5px;
+    margin-top: 35px;
+}
+
+.secao p {
+    text-align: justify;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #996600;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Nota */
+.nota {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/* Referências */
+.refs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
